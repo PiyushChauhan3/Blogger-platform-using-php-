@@ -1,0 +1,139 @@
+/* Resetting margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  background-image: url(/blogpoint/img/bg-01-free-img.jpg); /* Set the background image */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: Arial, sans-serif; /* Set a default font */
+}
+
+/* Container for post content and comments */
+.container {
+  max-width: 800px; /* Maximum width for large screens */
+  margin: 100px auto; /* Center the container and add some top/bottom margin */
+  padding: 20px; /* Padding around the container */
+  background: rgba(255, 255, 255, 0.9); /* White background with transparency */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Heading styles */
+.title-back{
+    display: flex;
+    align-items: center;
+}
+
+.title-back h1{
+    padding-left: 10px;
+}
+h1,
+h2 {
+  color: #333; /* Heading color */
+  margin-bottom: 20px; /* Space below headings */
+}
+
+h1 {
+  font-size: 2em; /* Larger font size for main title */
+}
+
+h2 {
+  font-size: 1.5em; /* Smaller font size for secondary title */
+  border-bottom: 2px solid #ddd; /* Underline for h2 */
+  padding-bottom: 10px; /* Padding below the underline */
+}
+
+/* Post content */
+p {
+  color: #555; /* Text color */
+  line-height: 1.6; /* Line height for better readability */
+  margin-bottom: 20px; /* Space below paragraphs */
+}
+/* image  */
+
+.image-post .card-img-top {
+  width: 75%;
+  height: 75%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: gray 0px 5px 3px 2px;
+}
+/* Comment form */
+.container form {
+  margin-bottom: 40px; /* Space below the form */
+}
+
+.container form .form-label {
+  font-weight: bold; /* Bold label text */
+}
+
+.container form .form-control {
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.container form .btn {
+  background-color: #007bff; /* Primary button color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Padding inside the button */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.container form .btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Comment card */
+.card {
+  margin-bottom: 20px; /* Margin between cards */
+  border-radius: 8px; /* Rounded corners */
+  background: rgba(255, 255, 255, 0.8); /* White background with transparency */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.card-body {
+  padding: 15px; /* Padding inside card body */
+}
+
+.card-title {
+  margin-bottom: 10px; /* Space below card title */
+  font-size: 1.2em; /* Font size for card title */
+  color: #007bff; /* Primary color */
+}
+
+.card-text {
+  color: #555; /* Text color */
+  line-height: 1.6; /* Line height for better readability */
+}
+
+.card-text small {
+  color: #999; /* Lighter color for timestamps */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  h1 {
+    font-size: 1.5em; /* Smaller font size for main title on mobile */
+  }
+
+  h2 {
+    font-size: 1.2em; /* Smaller font size for secondary title on mobile */
+  }
+}
+
+

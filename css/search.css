@@ -1,0 +1,136 @@
+/* Resetting margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    background-image: url(/blogpoint/img/bg-01-free-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for search results */
+.container {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background with transparency */
+    margin: 100px auto;
+    border-radius: 10px;
+    width: 80%;
+}
+
+/* Heading styles */
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+/* Card styles for each post */
+.card {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background with transparency */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.card-body{
+    padding: 20px;
+    background-color:rgb(53, 51, 51) ;
+    border: 3px solid gray;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.image-search{
+    width: 250px;
+}
+
+.search-image{
+    width: 100%;
+}
+
+.search-detail{
+    margin-left: 15px;
+}
+
+.card h5 a {
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.card h5 a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+
+.card p {
+    color: lightgray;
+}
+
+.card-text-small{
+    color: rgb(219, 219, 219);
+    font-size: small;
+}
+/* Footer styles */
+footer {
+    background: transparent;
+    height: 150px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h1, footer p {
+    margin: 10px 0;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon a {
+    color: aliceblue;
+    font-size: x-large;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Search form styles */
+.search-form {
+    display: flex;
+    justify-content: center; /* Center the search bar */
+    margin: 20px 0; /* Add some margin */
+}
+
+.search-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.search-form button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff; /* Primary color */
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.search-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

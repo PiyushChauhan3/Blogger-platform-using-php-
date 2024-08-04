@@ -1,0 +1,129 @@
+body{
+    background-image: url(/blogpoint/img/bg-01-free-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.signup-container{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.signup-form-container{
+    background-color: rgb(31 41 55);
+    height: 80%;
+    width: 35%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: rgb(29, 28, 28) 0px 10px 10px 0px;
+}
+
+.signup-form{
+    height: 100%;
+    width: 100%;
+}
+
+.signup-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.select-role, .user, .pass, .login{
+   margin-left: 50px;
+   font-size: larger;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 400;
+}
+
+.select-rol, .username, .password, .signup{
+    margin-left: 46px;
+    width: 75%;
+    height: 35px;
+    border: 2px solid gray;
+    background-color: aliceblue;
+    border-radius: 9px;
+}
+
+.signup{
+   background-color: blue;
+   color: aliceblue;
+}
+
+.signup-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* login  */
+body{
+    background-image: url(/blogpoint/img/bg-01-free-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.login-container{
+    margin-top:50px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.login-form-container{
+    background-color: rgb(31 41 55);
+    height: 80%;
+    width: 30%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: rgb(29, 28, 28) 0px 10px 10px 0px;
+}
+
+.login-form{
+    height: 100%;
+    width: 100%;
+}
+
+.login-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.select-role, .user, .pass, .login{
+   margin-left: 50px;
+   font-size: larger;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 400;
+}
+
+.select-rol, .username, .password, .login{
+    margin-left: 46px;
+    width: 75%;
+    height: 35px;
+    border: 2px solid gray;
+    background-color: aliceblue;
+    border-radius: 9px;
+}
+
+.login{
+   background-color: blue;
+   color: aliceblue;
+}
+
+.signup-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

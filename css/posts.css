@@ -1,0 +1,91 @@
+body {
+    background-image: url(/blogpoint/img/bg-01-free-img.jpg); /* Set the background image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: Arial, sans-serif; /* Set a default font */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px; /* Maximum width for large screens */
+    margin-top: 100px; /* Center the container */
+    margin-bottom: 20px;
+    padding: 20px; /* Padding around the container */
+    flex: 1;
+    padding-left: 20px;
+    border-left: 2px solid #ddd; /* Vertical line */
+    background: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    border-radius: 8px; /* Rounded corners for the sidebar */
+    padding: 20px; /* Padding inside the sidebar */
+}
+
+.posts-section {
+    flex: 3;
+    padding-right: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    padding-left: 20px;
+    border-left: 2px solid #ddd; /* Vertical line */
+    background: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    border-radius: 8px; /* Rounded corners for the sidebar */
+    padding: 20px; /* Padding inside the sidebar */
+}
+
+.card {
+    margin-bottom: 20px; /* Margin between cards */
+    border-radius: 8px; /* Rounded corners for cards */
+}
+
+.card img {
+    border-radius: 8px 8px 0 0; /* Rounded corners for card images */
+}
+
+.card-body {
+    padding: 15px; /* Padding inside card body */
+}
+
+.container h1, h2 {
+    color: #333; /* Heading color */
+    text-align: left; /* Align headings to the left */
+}
+
+h2 {
+    margin-top: 30px; /* Space above each h2 */
+}
+
+.card-title a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Link color */
+}
+
+.card-title a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+.list-group-item {
+    cursor: pointer; /* Cursor indicates clickable items */
+    background: transparent; /* Transparent background for list items */
+}
+
+.list-group-item:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Light blue background on hover */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack columns on smaller screens */
+    }
+    .posts-section, .sidebar {
+        padding: 0; /* Remove padding for mobile */
+        margin-bottom: 20px; /* Space between sections */
+    }
+    .sidebar {
+        border-left: none; /* Remove vertical line on mobile */
+        border-top: 2px solid #ddd; /* Add top border instead */
+    }
+}

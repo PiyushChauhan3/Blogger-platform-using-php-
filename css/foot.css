@@ -1,0 +1,49 @@
+footer {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for contrast */
+    height: auto; /* Allow footer to adjust height based on content */
+    color: aliceblue;
+    padding: 20px 0; /* Add padding for better spacing */
+    position: relative; /* Maintain flow in document */
+    text-align: center; /* Center align text */
+}
+
+.footer-content {
+    max-width: 1200px; /* Limit maximum width for larger screens */
+    margin: 0 auto; /* Center the content */
+}
+
+.icon {
+    display: flex;
+    justify-content: space-evenly; /* Center icons horizontally */
+    align-items: center;
+    width: 150px;
+    font-size: x-large;
+    font-weight: 600;
+    margin: 10px 0; /* Space between icons */
+}
+
+footer p {
+    margin: 10px 0; /* Space above and below paragraphs */
+}
+
+footer h1 {
+    font-size: 24px; /* Adjust header size */
+    margin-bottom: 10px; /* Space below header */
+}
+
+.icons {
+    display: flex;
+    justify-content: center; /* Center align icons */
+    margin-top: 15px; /* Space above icons */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    footer h1 {
+        font-size: 20px; /* Smaller header size on mobile */
+    }
+
+    .icon {
+        font-size: large; /* Adjust icon size on mobile */
+    }
+}
